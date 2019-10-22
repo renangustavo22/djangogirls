@@ -5,9 +5,9 @@ Blog com Django + Python
 ## Como rodar o projeto?
 
 * Clone esse repositório.
-* Crie um virtualenv com Python 3.
-* Ative o virtualenv.
-* Instale as dependências.
+* Crie um virtualenv com Python 3. (Opcional)
+* Ative o virtualenv.              (Opcional)           
+* Instale as dependências.    
 * Rode as migrações.
 
 ```
@@ -15,9 +15,9 @@ git clone https://github.com/renangustavo22/djangogirls
 cd djangogirls
 python3 -m venv myvenv
 pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+python manage.py migrate          (Opcional, apenas no caso em que necessecite reconfigurar o Banco)   
+python manage.py createsuperuser  (Opcional, apenas em caso de mudanças no User)
+python manage.py runserver        (Obrigatório, iniciará o servidor web)
 
 E acesse localmente através do endereço: http://127.0.0.1:8000/
 ```
