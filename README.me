@@ -1,1 +1,26 @@
+# Django
 
+Blog com Django + Python
+
+## Como rodar o projeto?
+
+* Clone esse repositório.
+* Crie um virtualenv com Python 3.
+* Ative o virtualenv.
+* Instale as dependências.
+* Rode as migrações.
+
+```
+git clone https://github.com/renangustavo22/djangogirls
+cd djangogirls
+python3 -m venv myvenv
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+
+E acesse localmente através do endereço: http://127.0.0.1:8000/
+```
+
+## Links
+https://tutorial.djangogirls.org/pt/
